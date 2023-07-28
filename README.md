@@ -11,9 +11,9 @@ https://user-images.githubusercontent.com/97399882/226269539-afedced0-e070-4d12-
 ## Brief Explanation
 Anytime that a transaction interacts with a Uniswap V2/V3 pool and its forks, there is some slippage introduced (routers, aggregators, other MEV bots). Sandwich bots, like this one, are a toxic form of MEV as they profit off this slippage by frontrunning the transaction pushing the price of an asset up to the slippage limit, and then immediately selling the asset through a backrun transaction.
 
-**Bot Logic Breakdown** can be found under [bot/README.md](https://github.com/mouseless-eth/rusty-sando/tree/master/bot)
+**Bot Logic Breakdown** can be found under [bot/README.md](https://github.com/namethepricellc/BuFFy/tree/master/bot)
 
-**Contract Logic Breakdown** can be found under [contract/README.md](https://github.com/mouseless-eth/rusty-sando/tree/master/contract)
+**Contract Logic Breakdown** can be found under [contract/README.md](https://github.com/namethepricellc/BuFFy/tree/master/contract)
 
 ## Features
 - **Fully Generalized**: Sandwich any tx that introduces slippage.
